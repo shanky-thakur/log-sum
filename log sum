@@ -1,0 +1,17 @@
+public class Main{
+
+    // sum of n terms of log series
+    static double sum(double n){
+        double added = 0;
+        double i = 1;
+        while(i <= n){
+            added = java.lang.Math.log(i);
+            i++;
+        }
+        return added;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(sum(5));
+    }
+}
